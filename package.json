@@ -16,7 +16,8 @@
   "main": "lib/index.js",
   "scripts": {
     "format": "prettier --write \"lib/**/*\" && eslint --fix .",
-    "test": "eslint . && tsc -p ."
+    "test": "eslint . && tsc -p .",
+    "example": "cd example && node ../lib/index.js --watch ./"
   },
   "devDependencies": {
     "@types/babel__core": "^7.0.1",

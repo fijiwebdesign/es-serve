@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+#app {
+  padding-left: 50px;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.block > * {
+  min-width: 100px;
+  padding-right: 10px;
+}
+.hero {
+  color: #fff;
+  padding: 50px;
+  margin-left: -50px;
+  background-image: url(../image/abstract-bg-1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: 100% auto;
+}
+.hero h1 {
+  font-size: 250%;
+}
+
+.btn {
+  cursor: pointer;
+  color: #fff2ed;
+  border-radius: 10px;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  background-color: rgb(255 57 106);
+  border: 1px solid rgb(232 43 90);
+  box-shadow: 1px 1px 1px #eee;
+}
